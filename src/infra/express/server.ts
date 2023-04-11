@@ -11,8 +11,8 @@ import { routingControllersToSpec } from 'routing-controllers-openapi';
 
 import { mysqlContainer } from '../inversify/containers/mysql.container';
 import { userContainer } from '../inversify/containers/user.container';
-import { InversifyAdapter } from './@shared/adapters/inversify.adapter';
-import { UserController } from './user/user.controller';
+import { InversifyAdapter } from './adapters/inversify.adapter';
+import { UserController } from './resources/user/user.controller';
 import { validationMetadatasToSchemas } from 'class-validator-jsonschema';
 
 const app = express();
