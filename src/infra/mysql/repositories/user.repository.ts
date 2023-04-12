@@ -1,6 +1,6 @@
 import { DatabaseTags } from '@/config/di-tags/database.tags';
 import { User } from '@/domain/user/entities/user';
-import { UserRepositoryInterface } from '@/domain/user/repositories/user-repository.interface';
+import { UserRepositoryInterface } from '@/data/user/contracts/user-repository.interface';
 import { inject, injectable } from 'inversify';
 import { Connection, RowDataPacket } from 'mysql2/promise';
 

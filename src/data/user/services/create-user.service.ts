@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
 
 import { User } from '@/domain/user/entities/user';
-import { UserRepositoryInterface } from '@/domain/user/repositories/user-repository.interface';
+import { UserRepositoryInterface } from '@/data/user/contracts/user-repository.interface';
 import {
   CreateUserParams,
   CreateUserUseCaseInterface,
